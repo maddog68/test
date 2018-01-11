@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main (void){
+void sayhello()
+{
 
 	printf ("Hello Git\n");
+}
+
+int main (void)
+{
+
+	sayhello();
 }
